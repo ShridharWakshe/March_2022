@@ -1,0 +1,192 @@
+1. Check the given number is EVEN or ODD
+
+Step1 : Start
+Step2 : Read the input num
+Step3 : if num%2==0 the number is even number
+Step4 : else the number is odd number
+Step5 : display
+Step6 : End
+
+=======================================================================================
+
+2. Write a Java Program to find the Factorial of given number
+
+Step1 : Start
+Step2 : Read the input num
+Step2 : for(i=1;num<=i;i++)
+Step3 : num=num*1
+Step4 : display num
+Step5 : End
+
+======================================================================================
+
+3. Find the Factorial of a number using Recursion.
+
+Step1 : Start
+Step2 : call factorial(num)
+Step3 : print factorial f
+Step4 : Stop
+	
+F=factorial(num)
+Step1 : if num==1 return 1
+Step2 : else f = num*factorial(num-1)
+Step3 : return f
+
+======================================================================================
+
+4. Swap two numbers without using third variable approach. 
+
+Step1 : start
+Step2 : Input num1 num2
+Step3 : num1 = num1 + num2
+Step4 : num2 = num1 - num2
+Step5 : num1 = num1 - num2
+Step6 : Display num1 & num2
+Step7 : End
+
+=====================================================================================
+
+5. How to check the given number is Positive or Negative in Java?
+		
+Step1 : Start
+Step2 : Input num1 
+Step3 : if num1>0 number is postive
+Step4 : if else number is negative
+Step5 : End
+
+====================================================================================
+
+6. Write a Java Program to find whether given number is Leap year or NOT?
+
+Step1 : Start
+Step2 : Input num
+Step3 : if num%4==0 leap year
+Step4 : else if num%400==0 leap year
+Step5 : else non-leap year
+Step6 : End
+
+====================================================================================
+
+7. Write a Java Program to Print 1 To 10 Without Using Loop. 
+
+Step1 : Start
+Step2 : display "1"
+Step3 : display "2"
+Step4 : display "3"
+Step5 : display "4"
+Step6 : display "5"
+Step7 : display "6"
+Step8 : display "7"
+Step9 : display "8"
+Step10 : display "9"
+Step11 : display "10"
+Step12: End
+
+======================================================================================
+
+8. Write a Java Program to print the digits of a Given Number. 
+
+Step1 : Start
+Step2 : Input num,num1
+Step3 : while(num!=0)
+Step4 : num1=num%10
+Step5 : num/10
+Step6 : diplay num1
+Step7 : End
+
+======================================================================================
+
+9. Write a Java Program to print all the Factors of the Given number. 
+
+Step1 : Start
+Step2 : Input num
+Step3 : for(i=1;i<num;i++)
+Step4 : if(num%i==0)
+Step5 : Display num
+Step6 : End
+
+======================================================================================
+
+10. Write a Java Program to find sum of the digits of a given number. 
+
+Step1 : Start
+Step2 : Read num.num1,sum=0
+Step3 : while(num1!=0)
+Step4 : num = num1%10
+Step5 : sum = sum + num
+Step6 : num1 = num/10
+Step7 : Display sum
+Step8 : End
+
+======================================================================================
+
+11. Write a Java Program to find the smallest of 3 numbers (a,b,c) 
+
+Step1 : Start
+Step2 : read a,b,c
+Step3 : if a>b
+Step4 : inner of if    if a>c
+Step5 : Diplay 'a' is greater
+Step6 : inner of if    else display 'c' is greater
+Step7 : outer else  display 'b' is greater  
+Step8 : End
+
+======================================================================================
+
+12. How to add two numbers without using the arithmetic operators in Java? 
+
+Step1 : Start
+Step2 : Read num1,num2
+Step3 : while(num1>0)
+Step4 : num1--
+Step5 : num2++
+Step6 : Diplay num2
+Step7 : End
+
+======================================================================================
+
+13. Write a java program to Reverse a given number
+
+Step1 : Start
+Step2 : Read num, reverse = 0
+Step3 : while(num!=0)
+Step3 : num1 = num%10
+Step4 : reverse = reverse*10 + num1
+Step5 : num/10
+Step6 : diplay reverse
+Step7 : End
+
+======================================================================================
+
+17. Check whether the Given Number is a Palindrome or NOT
+
+Step1 : Start
+Step2 : Read num, reverse=0
+Step3 : while(num!=0)
+Step4 : num1 = num%10
+Step5 : reverse = reverese*10 + num1 
+Step6 : num/10
+Step7 : if reverse==num
+Step8 : Display given number is Palindrome 
+Step9 : else Diplay given number is not palindrome
+Step10 : End
+
+======================================================================================
+
+19. To print the following series EVEN number Series 2 4 6 8 10 12 14 16 .....
+
+Step1 : Start
+Step2 : for(num=0;num!=-1;num=num+2)
+Step3 : Display num
+Step4 : End
+
+======================================================================================
+
+20. To print the following series ODD number Series 1 3 5 7 9 11 13 ....
+
+Step1 : Start
+Step3 : for(num=1;num!=0;num=num+2)
+Step4 : Display num
+Step5 : End
+
+=======================================================================================
